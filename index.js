@@ -17,11 +17,11 @@ router.get('/', function(req, res) { //simple transformation to aply to the xml,
 
     let doc = xmlParse(xml),
         stylesheet = xmlParse(xsl);
-        
+
     let result = xsltProcess(doc, stylesheet); //will get the html file    
 
     res.end(result.toString());
-});      
+}); 
 
 server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function() //the server will listen the requests sent, and port will be provided by gitpod itself and IP provided or use the localhost
 {

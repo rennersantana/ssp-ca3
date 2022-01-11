@@ -4,7 +4,7 @@
 	<xsl:template match="/">
 		<html>
 			<head>
-				<title>store</title>
+				<title>Sale Store</title>
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 				<style>
 				body{font-family:Arial,Helvetica,sans-serif;background-color:#fff;margin:5px;text-align:left;color:#523819}
@@ -84,7 +84,7 @@
 						document.forms[0].txtBillAmt.value = calculateBill('menuTable');
 					});
 					document.querySelector("#showVeg").addEventListener("click", function() {
-						highlightVegetarian('menuTable', this.checked);
+						highlightonsale('menuTable', this.checked);
 					});
 				}); ]]>
 				</script>

@@ -8,6 +8,7 @@ xml2js = require('xml2js'); // does xml <-> json conversion
 
 const router = express(); //router for the application
       server = http.createServer(router); //creating server to run always when the aplication is open.
+router.use(express.static(path.resolve(__dirname, 'views')));// static content from view folder    
 
 router.get('/', function(req, res) { //simple transformation to aply to the xml,xsl and apply to the browswer
 

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<store>
+  <section name="tops">
+    <entry>
+      <item>Rugby Crewneck T-Shirt</item>
+      <price>41.40</price>
+    </entry>
+    <entry>
+      <item>Crewneck T-Shirt</item>
+      <price>8</price>
+    </entry>
+    <entry onsale="true">
+      <item>T-Shirt 5-Pack</item>
+      <price>50.40</price>
+    </entry>
+  </section>
+  <section name="bottoms">
+    <entry>
+      <item>Black No Fade Skinny Jeans</item>
+      <price>39.20</price>
+    </entry>
+    <entry>
+      <item>Black No Fade Slim Straight Jeans</item>
+      <price>49</price>
+    </entry>
+    <entry onsale="true">
+      <item>Logo Sweatpants</item>
+      <price>22.50</price>
+    </entry>
+  </section>
+  <section name="coats">
+    <entry>
+      <item>Lined Puffer Jacket</item>
+      <price>89.40</price>
+    </entry>
+    <entry>
+      <item>Puffer Jacket</item>
+      <price>79.20</price>
+    </entry>
+    <entry onsale="true">
+      <item>Bomber Jacket</item>
+      <price>65.45</price>
+    </entry>
+  </section>
+  <section name="sleepwear">
+    <entry>
+      <item>Logo Full-Zip Hoodie</item>
+      <price>22.50</price>
+    </entry>
+    <entry>
+      <item>Skinny Fleece Taped Jogger Pants</item>
+      <price>19.60</price>
+    </entry>
+    <entry onsale="true">
+      <item>Woven Boxer 5-Pack</item>
+      <price>44.85</price>
+    </entry>
+  </section>
+  <section name="shoes">
+    <entry>
+      <item>Leather Flip Flops</item>
+      <price>35</price>
+    </entry>
+    <entry>
+      <item>Sherpa-Lined Slippers</item>
+      <price>13</price>
+    </entry>
+    <entry onsale="true">
+      <item>No-Show Socks 5-Pack</item>
+      <price>22</price>
+    </entry>
+  </section>
+</store>
